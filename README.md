@@ -1,50 +1,85 @@
-🎮 Jogo de Adivinhação: K-pop Edition
-Um mini game interativo com JOptionPane inspirado no Akinator, voltado para fãs de K-pop!
+# 🎮 Jogo de Adivinhação: K-pop Edition
 
-✨ Sobre o Projeto
-Este projeto é um jogo de adivinhação criado em Java, utilizando caixas de diálogo (JOptionPane) para interação com o usuário. A ideia é simples:
-Você pensa em um(a) cantor(a) famoso(a) do K-pop, e o programa tenta adivinhar quem é com base em suas respostas!
+Um mini game interativo em **Java** com uso de `JOptionPane`, inspirado no Akinator — só que voltado para **fãs de K-pop**! 🌟
 
-💡 É uma versão divertida e simplificada do clássico Akinator, adaptada para o universo do K-pop.
+---
 
-🧠 Como Funciona
-O programa pergunta se você quer jogar.
+## ✨ Sobre o Projeto
 
-Em seguida, você informa se está pensando em um homem ou mulher.
+Este projeto é um jogo de adivinhação criado em Java, utilizando **caixas de diálogo (`JOptionPane`)** para interação com o usuário.
 
-A partir disso, várias perguntas são feitas, como:
+Você pensa em um(a) cantor(a) famoso(a) do K-pop, e o programa tenta adivinhar quem é com base nas suas respostas.
 
-O artista faz parte de um grupo famoso?
+> 💡 É uma versão divertida e simplificada do clássico Akinator, focada em grupos como **BTS** e **TWICE**.
 
-O grupo tem mais de 6 membros?
+---
 
-Estreou antes de 2013?
+## 🧠 Como Funciona
 
-Foi indicado ao Grammy?
+1. O programa pergunta se você está pronto para jogar.
+2. Você informa se está pensando em um **homem** ou uma **mulher**.
+3. Baseado nisso, várias perguntas são feitas, como:
 
-Faz parte da JYP?
+   - Faz parte de um grupo de K-pop mundialmente famoso?
+   - O grupo tem mais de 6 membros?
+   - O grupo estreou antes de 2013?
+   - Já foi indicado ao Grammy?
+   - Faz parte da JYP?
+   - Possui Daesangs?
 
-Com base nas suas respostas, o sistema tenta adivinhar:
+4. Ao final, o programa tenta adivinhar o grupo com base nas respostas:
+   - 🧍‍♂️ **BTS**
+   - 🧍‍♀️ **TWICE**
 
-BTS (para artistas masculinos)
+---
 
-TWICE (para artistas femininas)
+## 🛠 Tecnologias Utilizadas
 
-🛠 Tecnologias Utilizadas
-☕ Java (JDK 17 ou superior)
+- ☕ **Java** (JDK 17 ou superior)
+- 💬 **JOptionPane** (`javax.swing`)
+- 🔁 **Lógica condicional** com `if/else`
 
-💬 JOptionPane (javax.swing) para janelas de interação
+---
 
-📦 Estrutura simples com lógica condicional (if/else)
+## 🖥️ Como Executar
 
-🖥️ Como Executar
-Clone ou baixe o repositório.
+1. Clone ou baixe este repositório.
+2. Abra o projeto em uma IDE Java, como:
+   - NetBeans
+   - IntelliJ
+   - Eclipse
+3. Compile e execute a classe principal: `Adivinhe.java`.
+4. Responda às perguntas exibidas nas janelas e veja o programa tentar adivinhar seu personagem!
 
-Abra o projeto em sua IDE Java (como NetBeans, IntelliJ ou Eclipse).
+---
 
-Compile e execute a classe principal: Adivinhe.java.
+## 🎓 Objetivos Educacionais
 
-Responda às perguntas nas caixas de diálogo e divirta-se!
+Este projeto tem como objetivo:
+
+- Praticar **lógica de programação** em Java
+- Utilizar estruturas condicionais (`if/else`)
+- Criar uma interface simples com `JOptionPane`
+- Estimular o raciocínio lógico por meio de perguntas e respostas
+- Produzir uma aplicação interativa gráfica simples
+
+---
+
+## 📌 Observações
+
+- Este jogo é apenas um **protótipo didático**.
+- Ideal para estudantes iniciantes em Java que desejam praticar lógica e interação gráfica.
+- A estrutura pode ser expandida com mais perguntas, mais artistas e até uso de estruturas como `switch` ou `HashMap` no futuro.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Yan**, estudante de Ciência da Computação, com interesse em lógica, programação e desenvolvimento de aplicações interativas.  
+Atualmente em busca de oportunidades de estágio na área de **TI**.
+
+---
+
 
 🎓 Objetivos Educacionais
 Este projeto foi feito com foco no aprendizado de:
