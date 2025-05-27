@@ -1,5 +1,6 @@
 
 🎤 Jogo de Adivinhação - K-pop Edition
+
 Este é um projeto simples feito em Java utilizando a biblioteca JOptionPane para interações com o usuário.
 O jogo simula um teste de adivinhação inspirado no conceito do Akinator, mas com foco em cantores e grupos famosos do K-pop.
 
