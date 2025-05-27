@@ -1,38 +1,68 @@
+🎮 Jogo de Adivinhação: K-pop Edition
+Um mini game interativo com JOptionPane inspirado no Akinator, voltado para fãs de K-pop!
 
-🎤 Jogo de Adivinhação - K-pop Edition
+✨ Sobre o Projeto
+Este projeto é um jogo de adivinhação criado em Java, utilizando caixas de diálogo (JOptionPane) para interação com o usuário. A ideia é simples:
+Você pensa em um(a) cantor(a) famoso(a) do K-pop, e o programa tenta adivinhar quem é com base em suas respostas!
 
-Este é um projeto simples feito em Java utilizando a biblioteca JOptionPane para interações com o usuário.
-O jogo simula um teste de adivinhação inspirado no conceito do Akinator, mas com foco em cantores e grupos famosos do K-pop.
+💡 É uma versão divertida e simplificada do clássico Akinator, adaptada para o universo do K-pop.
 
-💡 Sobre o Projeto
-A proposta é que o usuário pense em um cantor ou cantora famoso(a) do universo do K-pop, e o sistema fará perguntas fechadas (sim/não) para tentar adivinhar quem é.
+🧠 Como Funciona
+O programa pergunta se você quer jogar.
 
-O fluxo é dividido em:
+Em seguida, você informa se está pensando em um homem ou mulher.
 
-Escolha do gênero (homem ou mulher)
+A partir disso, várias perguntas são feitas, como:
 
-Perguntas sobre o grupo ao qual pertence (fama, número de membros, ano de estreia, prêmios, etc.)
+O artista faz parte de um grupo famoso?
 
-No final, o programa tenta adivinhar o artista com base nas respostas
+O grupo tem mais de 6 membros?
 
-Se o usuário estiver pensando, por exemplo, no BTS ou Twice, e responder corretamente às perguntas, o programa exibirá um palpite final com JOptionPane.showConfirmDialog.
+Estreou antes de 2013?
 
-🚀 Tecnologias utilizadas
-Java (JDK 17 ou superior)
+Foi indicado ao Grammy?
 
-javax.swing.JOptionPane para interface de diálogo simples
+Faz parte da JYP?
 
-🎮 Como executar
-Abra o projeto em sua IDE Java (NetBeans, IntelliJ, Eclipse, etc.)
+Com base nas suas respostas, o sistema tenta adivinhar:
 
-Compile e execute a classe Adivinhe.java
+BTS (para artistas masculinos)
 
-Siga as instruções exibidas nas janelas de diálogo
+TWICE (para artistas femininas)
 
-⚠️ Este é um projeto básico, ideal para fins de estudo e prática com estruturas condicionais, entrada de dados e uso da biblioteca Swing.
+🛠 Tecnologias Utilizadas
+☕ Java (JDK 17 ou superior)
 
-📚 Objetivos didáticos
-Praticar estrutura de decisão (if, else if)
+💬 JOptionPane (javax.swing) para janelas de interação
+
+📦 Estrutura simples com lógica condicional (if/else)
+
+🖥️ Como Executar
+Clone ou baixe o repositório.
+
+Abra o projeto em sua IDE Java (como NetBeans, IntelliJ ou Eclipse).
+
+Compile e execute a classe principal: Adivinhe.java.
+
+Responda às perguntas nas caixas de diálogo e divirta-se!
+
+🎓 Objetivos Educacionais
+Este projeto foi feito com foco no aprendizado de:
+
+Estrutura condicional em Java
+
+Manipulação de entrada e saída com JOptionPane
+
+Prática de lógica de programação
+
+Criação de pequenos fluxos interativos
+
+📌 Observações
+Este jogo é apenas um protótipo didático.
+
+Ideal para estudantes iniciantes em Java que desejam praticar lógica e interação gráfica básica.
+
+
 
 Desenvolver a lógica de perguntas e respostas
 
